@@ -1,0 +1,32 @@
+title: Jorge Moura
+email: your-email@example.com
+description: >-
+  Personal site and blog of Jorge Moura, software engineer.
+baseurl: ""
+url: "https://jorgecmoura.github.io"
+github_username: jorgecmoura
+
+theme: minima
+
+minima:
+  skin: classic
+  social_links:
+    github: jorgecmoura
+
+header_pages:
+  - about.md
+  - projects.md
+  - contact.md
+
+permalink: /:categories/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

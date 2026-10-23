@@ -1,0 +1,20 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+
+# Ruby / Bundler
+*.gem
+.rbx/
+# Excluded to avoid local/GitHub Pages Jekyll version mismatches
+Gemfile.lock
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
